@@ -1,5 +1,5 @@
 projects:
-  todoapi:
+  todoapi-dev:
     schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
@@ -10,3 +10,6 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
+        region: eu-west-2
+        apiId: may4vm7c5zefrkwgwir4rw4udy
+        maxDepth: 2
